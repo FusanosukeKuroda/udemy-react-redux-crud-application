@@ -5,7 +5,7 @@ const initialState = {value: 0 }
 
 
 export default (state = initialState, action) =>{
- switch (acrion.type) {
+ switch (action.type) {
    case INCREMENT:
    	 return {value: state.value +1 }
    case DECREMENT:
